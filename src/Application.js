@@ -18,7 +18,7 @@ function Application() {
 
     return (
         <>
-            <div className="banner"><a href="">NoCodeAPI Status Page: With UptimeRobot API</a></div>
+            <div className="banner"><a href="https://nocodeapi.com/docs/uptime-robot-nocodeapi-docs">NoCodeAPI Status Page: With UptimeRobot API</a></div>
             <div className="applications">
                 <header className="app-header">
                     <a href="https://nocodeapi.com"><img src={logo} height="60" alt="logo" /></a>
