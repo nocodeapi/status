@@ -23,7 +23,7 @@ function Application() {
                 <header className="app-header">
                     <a href="https://nocodeapi.com"><img src={logo} height="60" alt="logo" /></a>
                     <div className="feedback">
-                    report
+                        <a href="https://twitter.com/nocodeapi">@nocodeapi</a>
                     </div>
                 </header>
                 {myMonitors.map((monitor, key) => (
