@@ -1,0 +1,98 @@
+.monitor .head {
+    padding: 10px 20px;
+}
+
+.monitor .head h2 {
+    background-color: #632121;
+    border-radius: 5px;
+    display: inline-block;
+    color: #f5b2b2;
+    padding: 3px 10px;
+    margin: 0;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.monitor .head small {
+    font-size: 11px;
+    line-height: 14px;
+    display: block;
+}
+
+.monitor .head small a {
+    color: #000;
+}
+
+.stats-container {
+    padding: 40px 0px;
+}
+
+.stats-container .response-chart {
+    height: 250px;
+}
+
+@media only screen and (min-width: 600px) {
+    .stats-container {
+        display: grid;
+        grid-template-columns: 80% 20%;
+        height: 250px;
+    }
+}
+
+svg.recharts-surface tspan {
+    font-family: 'Poppins', sans-serif !important;   
+	font-size: 0.8rem !important;
+	color: black !important;
+}
+
+.stats-container .status-numbers{
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-gap: 0.5rem;
+}
+
+.status-numbers .number {
+    background: #00392F;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.status-numbers .number-card {
+    color: #fff;
+}
+
+.status-numbers .number-card label {
+    font-weight: 500;
+    font-size: 18px;
+    color: #60d8c5;
+}
+
+.status-numbers .number-card .value {
+    font-size: 14px;
+}
+
+.status-numbers .number.up label {
+    font-weight: 500;
+    font-size: 20px;
+    color: #60d8c5;
+}
+
+.status-numbers .number.down label {
+    color: #962a28;
+}
+
+.status-numbers .number.up {
+    background: #00392F;
+}
+
+.status-numbers .number.down {
+    background: #EB4B48; 
+}
+
+.monitor .logs-list {
+    padding: 20px 0px;
+    margin-bottom: 40px;
+}
