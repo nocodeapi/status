@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import axios from 'axios'
+import {ENDPOINT} from './env'
 
 import Monitor from './Monitor'
 import logo from './images/logo_round.png';
@@ -10,7 +11,7 @@ function Application() {
     const [myMonitors, setMyMonitors] = useState([])
 
     useEffect(() => {
-        axios.get('http://localhost:3000/betauser/uptime/jWbKgShOsFpnGQNa?monitors=784130462-784130459-784021932').then(result => {
+        axios.get(ENDPOINT).then(result => {
             setMyMonitors(result.data.monitors)
         })
     },[])
