@@ -11,7 +11,7 @@ function Application() {
     const [myMonitors, setMyMonitors] = useState([])
 
     useEffect(() => {
-        axios.get(process.env.UPR_NOCODEAPI).then(result => {
+        axios.get(ENDPOINT).then(result => {
             setMyMonitors(result.data.monitors)
         })
     },[])

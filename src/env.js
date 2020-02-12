@@ -1,1 +1,1 @@
-export const ENDPOINT = "https://v1.nocodeapi.com/betauser/uptime/dHmQOXeWbdNuJsII?monitors=784130459-784130462"
+export const ENDPOINT = process.env.UPR_NOCODEAPI
