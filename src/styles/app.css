@@ -34,8 +34,25 @@ th, td {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px 10px;
     margin-bottom: 40px;
+}
+
+.app-header .title {
+    color: #000;
+    text-decoration: none;
+}
+
+.app-header .title span {
+    font-weight: 700;
+}
+
+.app-header .feedback {
+    font-size: 14px;
+}
+
+.app-header .feedback a {
+    text-decoration: none;
 }
 
 .footer {
