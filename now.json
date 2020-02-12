@@ -1,4 +1,9 @@
 {
+    "build": {
+        "env": {
+            "UPTIME_ROBOT_NOCODEAPI": "@uptime-robot-nocodeapi"
+        }
+    },
     "env": {
         "UPTIME_ROBOT_NOCODEAPI": "@uptime-robot-nocodeapi"
     }
