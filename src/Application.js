@@ -11,7 +11,7 @@ function Application() {
     const [myMonitors, setMyMonitors] = useState([])
 
     useEffect(() => {
-        axios.get(ENDPOINT).then(result => {
+        axios.get(process.env.UPTIME_ROBOT_NOCODEAPI).then(result => {
             setMyMonitors(result.data.monitors)
         })
     },[])
