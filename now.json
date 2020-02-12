@@ -1,6 +1,5 @@
 {
     "env": {
-        "NOTION_TOKEN": "@notion-token",
-        "BLOG_INDEX_ID": "@blog-index-id"
+        "UPR_NOCODEAPI": "@upr-nocodeapi"
     }
 }
