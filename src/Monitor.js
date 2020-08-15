@@ -15,7 +15,8 @@ function Monitor({ data }) {
         logs,
         all_time_uptime_ratio,
         response_times,
-        average_response_time
+        average_response_time,
+        status
     } = data;
 
     const statusComp = type => {
@@ -83,13 +84,13 @@ function Monitor({ data }) {
                 <div className="status-numbers">
                     <div
                         className={
-                            logs[0].type === 2 ? "number up" : "number down"
+                            status === 2 ? "number up" : "number down"
                         }
                     >
                         <div className="number-card current-status">
                             <label>Current Status</label>
                             <div className="value">
-                                {logs[0].type === 2 ? "Up" : "Down"}
+                                {status === 2 ? "Up" : "Down"}
                             </div>
                         </div>
                     </div>
