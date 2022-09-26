@@ -10,7 +10,7 @@ If you wanna use this template then go ahead. It's so easy. There is no backed y
 
 ### Step 2:
 
-1. Build NoCodeAPI of UptimeRobot [Go Here](https://nocodeapi.com/docs/uptime-robot-nocodeapi-docs)
+1. Build NoCodeAPI of UptimeRobot [Go Here](https://nocodeapi.com/marketplace/uptime-robot/)
 2. Replace your Uptime Robot NoCodeAPI in `/src/env.js` file.
 
 ![Image](https://user-images.githubusercontent.com/9165019/73462094-3cf97b00-43a1-11ea-868f-8e3bc1f997a5.png)
